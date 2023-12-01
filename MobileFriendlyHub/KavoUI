@@ -1,3 +1,5 @@
+--credit thanhdat4461
+
 local Kavo = {}
 
 local tween = game:GetService("TweenService")

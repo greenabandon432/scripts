@@ -57,5 +57,5 @@ end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/DOORS.lua"))()
 
 else   
-game.Players.LocalPlayer:Kick("this script is only made for doors, not for another random ass games. But if you executed this script in the lobby (DOORS) then please not execute this ingame, NOT in the lobby") 
+game.Players.LocalPlayer:Kick("this script is only made for doors, not for another random ass games. But if you executed this script in the lobby (DOORS) then please execute this ingame, NOT in the lobby") 
 end

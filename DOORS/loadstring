@@ -1,3 +1,0 @@
--- I don't own this script, I just wanna modify something for myself 
--- original: https://github.com/notpoiu/mspaint
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/Loader.lua"))()

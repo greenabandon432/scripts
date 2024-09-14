@@ -1,3 +1,4 @@
+if game.PlaceId == 2440500124 then
 local compatibility_mode = false do
     local executor_name = identifyexecutor and identifyexecutor() or "your executor"
 
@@ -51,3 +52,7 @@ local compatibility_mode = false do
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/DOORS.lua"))()
+
+else 
+game.Players.LocalPlayer:Kick("Wrong game bozo") 
+end

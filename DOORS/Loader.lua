@@ -56,10 +56,6 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/DOORS.lua"))()
 
-else  
-if game.PlaceId == 6516141723 then 
-game.Players.LocalPlayer:Kick("DO NOT EXECUTE THIS SCRIPT IN THE LOBBY") 
-end 
-else 
-game.Players.LocalPlayer:Kick("this script is only made for doors, not for another random ass games.") 
+else   
+game.Players.LocalPlayer:Kick("this script is only made for doors, not for another random ass games. But if you executed this script in the lobby (DOORS) then please not execute this ingame, NOT in the lobby") 
 end

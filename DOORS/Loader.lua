@@ -1,3 +1,6 @@
+-- I don't own this script, I just wanna modify something for myself.
+-- original: https://github.com/notpoiu/mspaint
+
 if game.PlaceId == 2440500124 then
 local compatibility_mode = false do
     local executor_name = identifyexecutor and identifyexecutor() or "your executor"

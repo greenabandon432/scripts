@@ -4059,13 +4059,13 @@ function Library:CreateWindow(...)
 		local ToggleUIButton = Library:Create('TextButton', {
 			Position = UDim2.new(0, 5, 0, 0);
 			Size = UDim2.new(1, -4, 1, 0);
-			BackgroundTransparency = 1;
+			BackgroundTransparency = 0.5;
 			Font = Library.Font;
 			Text = "Toggle UI";
 			TextColor3 = Library.FontColor;
 			TextSize = 14;
 			TextXAlignment = Enum.TextXAlignment.Left;
-			TextStrokeTransparency = 0;
+			TextStrokeTransparency = 0.5;
 			ZIndex = 203;
 			Parent = ToggleUIInnerFrame;
 		});
@@ -4129,13 +4129,13 @@ function Library:CreateWindow(...)
 		local LockUIButton = Library:Create('TextButton', {
 			Position = UDim2.new(0, 5, 0, 0);
 			Size = UDim2.new(1, -4, 1, 0);
-			BackgroundTransparency = 1;
+			BackgroundTransparency = 0.5;
 			Font = Library.Font;
 			Text = "Lock UI";
 			TextColor3 = Library.FontColor;
 			TextSize = 14;
 			TextXAlignment = Enum.TextXAlignment.Left;
-			TextStrokeTransparency = 0;
+			TextStrokeTransparency = 0.5;
 			ZIndex = 203;
 			Parent = LockUIInnerFrame;
 		});

@@ -1,3 +1,5 @@
+-- I don't own this script, I just wanna modify something for myself 
+-- original: https://github.com/notpoiu/mspaint
 if not getgenv().mspaint_loaded then
     getgenv().mspaint_loaded = true
 else return end

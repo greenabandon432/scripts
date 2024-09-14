@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/DOORS.lua"))()

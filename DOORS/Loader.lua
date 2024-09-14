@@ -1,4 +1,4 @@
--- I don't own this script, I just wanna modify something for myself.
+-- I don't own this script, I just wanna modify something myself.
 -- original: https://github.com/notpoiu/mspaint
 local compatibility_mode = false do
     local executor_name = identifyexecutor and identifyexecutor() or "your executor"

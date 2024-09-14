@@ -4127,9 +4127,9 @@ function Library:CreateWindow(...)
 		});
 	
 		local LockUIButton = Library:Create('TextButton', {
-			Position = UDim2.new(0, 5, 0, 0);
-			Size = UDim2.new(1, -4, 1, 0);
-			BackgroundTransparency = 1;
+			Position = UDim2.new(0.2375, 0, 0, -32);
+			Size = UDim2.new(0, 32, 0, 32);
+			BackgroundTransparency = 0.5;
 			Font = Library.Font;
 			Text = "Lock UI";
 			TextColor3 = Library.FontColor;

@@ -174,7 +174,7 @@ local Options = getgenv().Linoria.Options
 local Toggles = getgenv().Linoria.Toggles
 
 local Window = Library:CreateWindow({
-	Title = "mspaint v2",
+	Title = "DOORS",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,

@@ -1,7 +1,5 @@
 -- I don't own this script, I just wanna modify something for myself.
 -- original: https://github.com/notpoiu/mspaint
-
-if game.PlaceId == 2440500124 then
 local compatibility_mode = false do
     local executor_name = identifyexecutor and identifyexecutor() or "your executor"
 
@@ -55,7 +53,3 @@ local compatibility_mode = false do
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/main/DOORS/DOORS.lua"))()
-
-else   
-game.Players.LocalPlayer:Kick("this script is only made for doors, not for another random ass games. But if you executed this script in the lobby (DOORS) then please execute this ingame, NOT in the lobby") 
-end

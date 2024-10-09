@@ -1,0 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/refs/heads/main/Executor_Check/Vulnerability_Check.lua"))()
+wait(7.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/refs/heads/main/Executor_Check/UNC_Test.lua"))()
+wait(7.5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lo2z/scripts/refs/heads/main/Executor_Check/Identity_Test.lua"))()
